@@ -5,8 +5,7 @@ export function reverseN(head: ListNode | undefined, n: number): ListNode | unde
   if (head === undefined || head.next === undefined) return head
   let pre: ListNode | undefined = undefined
   let curr: ListNode | undefined = head
-  let i = 0
-  while (i < n) {
+  for (let i = 0; i < n; i++) {
     let temp = curr!.next
     curr!.next = pre
     pre = curr

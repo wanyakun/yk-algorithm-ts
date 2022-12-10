@@ -8,7 +8,7 @@ export function rightBound(nums: number[], target: number): number {
     } else if (nums[mid] > target) {
       right = mid - 1
     } else if (nums[mid] === target) {
-      right = mid - 1
+      left = mid + 1
     }
   }
   if (left - 1 < 0) return -1

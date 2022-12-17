@@ -26,8 +26,8 @@ export function invertTree1(root: TreeNode | null): TreeNode | null {
     return null
   }
 
-  let left = invertTree(root.left)
-  let right = invertTree(root.right)
+  let left = invertTree1(root.left)
+  let right = invertTree1(root.right)
 
   root.left = right
   root.right = left

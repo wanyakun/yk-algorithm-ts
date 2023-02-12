@@ -1,3 +1,4 @@
+// 最长回文子串
 export function longestPalindrome(s: string): string {
   let res = ''
   for (let i = 0; i < s.length; i++) {

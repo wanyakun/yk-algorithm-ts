@@ -1,4 +1,6 @@
 import { ListNode } from '../data-struct/singly-linked-list';
+
+// 判断单链表是否包含环
 export function hasCycle(head?: ListNode) {
   // 双指针，只要相遇就有环
   let p1 = head

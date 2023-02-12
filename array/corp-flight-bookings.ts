@@ -1,3 +1,4 @@
+// 航班预定统计
 import { Difference } from '../data-struct/difference'
 
 export function corpFlightBookings(bookings: number[][], n: number): number[] {

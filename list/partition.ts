@@ -1,5 +1,6 @@
 import { ListNode } from '../data-struct/singly-linked-list';
 
+// 单链表的分解
 export function paritition(x: number, head?: ListNode): ListNode | undefined {
   // 生成两个拆分的链表的虚拟表头
   let dummy1 = new ListNode(-1)

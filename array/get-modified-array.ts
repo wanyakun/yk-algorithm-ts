@@ -1,3 +1,4 @@
+// 区间加法
 import { Difference  } from "../data-struct/difference";
 export function getModifiedArray(length: number, updates: number[][]): number[] {
   let nums: number[] = []

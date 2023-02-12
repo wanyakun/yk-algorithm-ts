@@ -1,3 +1,4 @@
+// 二分查找
 export function binarySearch(nums: number[], target: number): number {
   let left = 0
   let right = nums.length - 1

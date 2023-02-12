@@ -1,3 +1,4 @@
+// 田忌赛马（优势洗牌）
 export function advantageCount(nums1: number[], nums2: number[]): number[] {
   // 对nums1升序排序
   nums1.sort((a, b) => a - b)

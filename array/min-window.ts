@@ -4,7 +4,7 @@
  * 对于 t 中重复字符，我们寻找的子字符串中该字符数量必须不少于 t 中该字符数量。
  * 如果 s 中存在这样的子串，我们保证它是唯一的答案。
  */
-
+// 最小覆盖子串
 export function minWindow(s: string, t: string): string {
   // 计数器，记录t中每个字符出现的次数
   let need: Record<string, number> = {}

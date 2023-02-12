@@ -1,3 +1,4 @@
+// 反转字符串
 export function reverseString(s: string[]): void {
   let left = 0
   let right = s.length - 1

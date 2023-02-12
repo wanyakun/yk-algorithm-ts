@@ -1,3 +1,4 @@
+// 找到字符串中所有字母异位次（排列）
 export function findAnagrams(s: string, t: string): number[] {
   // 计数器，记录t中每个字符出现的次数
   let need: Record<string, number> = {}

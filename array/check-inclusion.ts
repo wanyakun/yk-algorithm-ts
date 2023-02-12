@@ -1,3 +1,4 @@
+// 字符串的排列
 export function checkInclusion(s: string, t: string): boolean {
   // 计数器，记录t中每个字符出现的次数
   let need: Record<string, number> = {}

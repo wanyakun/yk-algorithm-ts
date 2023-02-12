@@ -1,3 +1,4 @@
+// 寻找左侧边界的二分搜索
 export function leftBound(nums: number[], target: number): number {
   let left = 0
   let right = nums.length - 1

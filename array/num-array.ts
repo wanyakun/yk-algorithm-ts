@@ -1,3 +1,4 @@
+// 区域和检索 - 数组不可变
 class NumArray {
   // preSum[i] 保存这nums[0...i-1]之和
   private preSum: number[] = []

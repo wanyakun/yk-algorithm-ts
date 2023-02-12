@@ -1,3 +1,4 @@
+// 移除元素
 export function removeElement(nums: number[], val: number): number {
   let slow = 0
   let fast = 0

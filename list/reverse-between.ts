@@ -1,6 +1,7 @@
 import { ListNode } from '../data-struct/singly-linked-list';
 import { reverseN1 } from './reverse-n';
 
+// 反转链表的一部分
 export function reverseBetween(head: ListNode | undefined, left: number, right: number): ListNode | undefined {
   let pre: ListNode | undefined = undefined
   let curr = head

@@ -1,5 +1,6 @@
 import { ListNode } from '../data-struct/singly-linked-list'
 
+// 判断两个单链表是否相交
 export function getIntersectionNode(headA?: ListNode, headB?: ListNode): ListNode | undefined {
   let p1 = headA
   let p2 = headB

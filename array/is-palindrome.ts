@@ -1,3 +1,4 @@
+// 回文判断
 export function isPalindrome(s: string): boolean {
   let left = 0
   let right = s.length - 1

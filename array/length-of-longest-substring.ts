@@ -1,3 +1,4 @@
+// 最长无重复子串
 export function lengthOfLongestSubstring(s: string): number {
   // 计数器，记录窗口内部s的每个字符出现的次数
   let window: Record<string, number> = {}

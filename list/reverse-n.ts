@@ -1,5 +1,6 @@
 import { ListNode } from '../data-struct/singly-linked-list';
 
+// 反转链表前 N 个节点
 /// 迭代方式
 export function reverseN(head: ListNode | undefined, n: number): ListNode | undefined {
   if (head === undefined || head.next === undefined) return head
@@ -19,7 +20,7 @@ export function reverseN(head: ListNode | undefined, n: number): ListNode | unde
 /// 递归方式
 let right: ListNode | undefined = undefined
 export function reverseN1(head: ListNode | undefined, n: number): ListNode | undefined {
-  if (n == 1) {
+  if (n === 1) {
     // 记录第n+1个节点
     right = head?.next
     return head

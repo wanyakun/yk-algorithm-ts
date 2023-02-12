@@ -1,5 +1,6 @@
 import { ListNode } from '../data-struct/singly-linked-list';
 
+// 反转整个单链表
 /// 迭代方式
 export function reverseList(head?: ListNode): ListNode | undefined {
   let pre: ListNode | undefined = undefined
@@ -15,7 +16,7 @@ export function reverseList(head?: ListNode): ListNode | undefined {
 
 /// 递归方式
 export function reverseList1(head?: ListNode): ListNode | undefined {
-  if(head === undefined|| head.next === undefined) {
+  if(head === undefined || head.next === undefined) {
     return head
   }
 

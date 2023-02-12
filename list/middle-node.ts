@@ -1,5 +1,6 @@
 import { ListNode } from "../data-struct/singly-linked-list";
 
+// 单链表的中点
 export function middleNode(head?: ListNode,): ListNode | undefined {
   let p1 = head
   let p2 = head

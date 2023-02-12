@@ -1,5 +1,6 @@
 import { ListNode } from "../data-struct/singly-linked-list";
 
+// 寻找单链表的倒数第 k 个节点
 export function theKToLast(k: number, head?: ListNode,): ListNode | undefined {
   let p1: ListNode | undefined = head
   // p1 先走k步

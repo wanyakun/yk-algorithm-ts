@@ -1,6 +1,7 @@
 import { ListNode } from '../data-struct/singly-linked-list';
 import { mergeTwoLists } from './merge-two-lists';
 
+// 合并 k 个有序链表
 /// 顺序合并
 export function mergeKLists(lists: Array<ListNode | undefined>): ListNode | undefined {
   let p: ListNode | undefined = undefined

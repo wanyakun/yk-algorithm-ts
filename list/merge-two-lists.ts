@@ -1,5 +1,6 @@
 import { ListNode } from '../data-struct/singly-linked-list';
 
+// 合并两个有序链表
 export function mergeTwoLists(list1?: ListNode, list2?: ListNode): ListNode | undefined {
   // 生成虚拟表头
   let dummy = new ListNode(-1)

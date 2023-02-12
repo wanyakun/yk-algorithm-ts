@@ -19,7 +19,7 @@ function reverse(a: ListNode, b?: ListNode): ListNode | undefined {
   let pre: ListNode | undefined = undefined
   let curr: ListNode | undefined = a
   while(a !== b) {
-    let temp = a.next
+    let temp = curr!.next
     curr!.next = pre
     pre = curr
     curr = temp

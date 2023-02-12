@@ -1,3 +1,4 @@
+// 二维区域和检索 - 矩阵不可变
 class NumMatrix {
   // preSum[i][j] 保存这 matrix[0, 0, i-1, j-1]中的元素之和
   private preSum: number[][] = []

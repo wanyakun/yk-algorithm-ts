@@ -1,3 +1,4 @@
+// 螺旋矩阵II，按照螺旋的顺序生成矩阵
 export function generateMatrix(n: number): number[][] {
   // 1. 初试化二维矩阵matrix，并用0填充
   let matrix: number[][] = new Array(n).fill(0).map(() => new Array(n).fill(0))
@@ -6,6 +7,7 @@ export function generateMatrix(n: number): number[][] {
   let top = 0
   let right = n - 1
   let bottom = n - 1
+  // 需要填入矩阵的数字
   let num = 1
   while(num <= n*n) {
     if (top <= bottom) {
@@ -23,7 +25,7 @@ export function generateMatrix(n: number): number[][] {
       right--
     }
     if (top <= bottom) {
-      for (let i = right; i <= left; i--) {
+      for (let i = right; i >= left; i--) {
         matrix[bottom][i] = num
         num++
       }

@@ -1,3 +1,4 @@
+// 删除有序数组中的重复项
 export function removeDuplicates(nums: number[]): number {
   let slow = 0
   let fast = 0

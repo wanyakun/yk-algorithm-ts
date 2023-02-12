@@ -1,5 +1,6 @@
 import { ListNode } from "../data-struct/singly-linked-list";
 
+// 判断单链表是否包含环，并找出环的起点
 export function detectCycle(head?: ListNode): ListNode | undefined {
   // 通过快慢指针判断是否为环
   let p1 = head
